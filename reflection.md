@@ -53,6 +53,10 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  Streamlit reruns execute the entire scripts all over again when someone interacts with the app.
+  Session states are built in memory that stores and keeps values available across the reruns, this allows the app to maintain its state rather than resetting it everytime.
+
+  For example if a teacher earaases and rewrites a whiteboard eberytime someone asks a question. This would be like streamit resruns. To keep and not lose all the important information, after the baord has been earsed, you would keep a notebook. This would be like session state.
 
 ---
 
@@ -60,5 +64,10 @@ Document at least 3 bugs you found. Add rows as needed.
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+    For future use, I would have to reuse is checking the console log to see how each input affects it.
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+  I would try to make a more specific prompt and ask for more clarifications.
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  AI generated code can be a great way to prototype but while AI can generate code, that does not mean it is bug free and it is necessary to test and improve the code.
